@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Where is the ISS?</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    </link>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Where is the International Space Station?</h1>
+        <div id="map"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZ5OKaC7rCRJxBvs5639CNIpnNJR0nZFE&callback=startPage"
+        async defer></script>
+</body>
+
+</html>
