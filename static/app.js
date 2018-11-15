@@ -1,5 +1,5 @@
-const api = 'https://hu3wu48p42.execute-api.us-west-2.amazonaws.com/dev'
-// const api = 'http://localhost:8080'
+// const api = 'https://hu3wu48p42.execute-api.us-west-2.amazonaws.com/dev'
+const api = 'http://localhost:5000'
 
 function startPage () {
   request('findISS')
