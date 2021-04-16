@@ -3,5 +3,5 @@
 ## Live Location on the International Space Station
 
 
-### Available [here](https://hu3wu48p42.execute-api.us-west-2.amazonaws.com/dev).
+### Available [here](https://v4ncb8ou3m.execute-api.sa-east-1.amazonaws.com/dev).
 

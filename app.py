@@ -12,7 +12,9 @@ app = Flask(__name__, template_folder="templates")
 
 @app.route('/')
 def home():
-    return render_template('index.html', api_key=os.environ.get('GOOGLE_MAPS_API_KEY'))
+    return render_template('index.html',
+        api_key=os.environ.get('GOOGLE_MAPS_API_KEY'),
+        api_name=os.environ.get('LAMBDA_API'))
 
 @app.route('/findISS')
 def findIss():

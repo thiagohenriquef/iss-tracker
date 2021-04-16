@@ -1,5 +1,4 @@
-// const api = 'https://hu3wu48p42.execute-api.us-west-2.amazonaws.com/dev'
-const api = 'http://localhost:5000'
+var api = window.location.href || null;
 
 function startPage () {
   request('findISS')
